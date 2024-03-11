@@ -19,6 +19,7 @@ metadata:
     github.com/project-slug: mcmuralishclint/my-go-app
     github.com/actions-workflow: https://github.com/mcmuralishclint/my-go-app/actions
     backstage.io/kubernetes-id: my-kubernetes-component
+    app: go-app
 spec:
   type: service
   lifecycle: experimental
