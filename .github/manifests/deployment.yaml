@@ -3,6 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: go-app
+  annotations:
+    backstage.io/kubernetes-id: go-clean-code
 spec:
   type: LoadBalancer
   selector:
@@ -17,6 +19,8 @@ metadata:
   name: go-app
   labels:
     app: go-app
+  annotations:
+    backstage.io/kubernetes-id: go-clean-code
 spec:
   replicas: 1
   selector:
@@ -26,7 +30,11 @@ spec:
     metadata:
       labels:
         app: go-app
+      annotations:
+        backstage.io/kubernetes-id: go-clean-code
     spec:
       containers:
       - name: go-app
         image: gcr.io/prj-dev-platform-next/backstage:latest
+        annotations:
+          backstage.io/kubernetes-id: go-clean-code
