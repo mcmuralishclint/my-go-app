@@ -19,7 +19,7 @@ metadata:
     github.com/project-slug: mcmuralishclint/my-go-app
     github.com/actions-workflow: https://github.com/mcmuralishclint/my-go-app/actions
     backstage.io/kubernetes-id: go-clean-code
-    circleci.com/project-slug: github/my-org/my-repo
+    circleci.com/project-slug: github/mcmuralishclint/my-go-app
 spec:
   type: service
   lifecycle: experimental
