@@ -22,6 +22,11 @@ metadata:
     backstage.io/kubernetes-id: go-clean-code
     circleci.com/project-slug: github/mcmuralishclint/my-go-app
     kibana-url: "http://35.226.244.163:5601/app/dashboards#/view/edf84fe0-e1a0-11e7-b6d5-4dc382ef7f5b?_g=()"
+    prometheus.io/scrape: "true"
+    prometheus.io/path: "/metrics"
+    prometheus.io/port: "9090"
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
+    prometheus.io/alert: "all"
 spec:
   type: service
   lifecycle: experimental
