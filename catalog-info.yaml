@@ -35,5 +35,3 @@ spec:
   lifecycle: experimental
   owner: "group:default/mcmuralishclint"
   system: marketplace
-  providesApis: [api1, api2, api3]
----
