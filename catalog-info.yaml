@@ -28,8 +28,8 @@ metadata:
     prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
     prometheus.io/alert: "all"
     pagerduty.com/integration-key: 4c280fa2a1094100d0767478390a85d6
-    pulumi.com/project-slug: [Pulumi Cloud Name: mcmuralishclint/pulumi-cicd/dev]
-    pulumi.com/orga-slug: [Pulumi Cloud: org]
+    pulumi.com/project-slug: mcmuralishclint/pulumi-cicd/dev
+    pulumi.com/orga-slug: mcmuralishclint
 spec:
   type: service
   lifecycle: experimental
