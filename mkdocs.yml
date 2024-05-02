@@ -1,0 +1,7 @@
+site_name: "my-go-app"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
