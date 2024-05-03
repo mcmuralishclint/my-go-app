@@ -21,7 +21,7 @@ metadata:
     github.com/actions-workflow: https://github.com/mcmuralishclint/my-go-app/actions
     backstage.io/kubernetes-id: go-clean-code
     circleci.com/project-slug: github/mcmuralishclint/my-go-app
-    kibana-url: "http://35.226.244.163:5601/app/dashboards#/view/edf84fe0-e1a0-11e7-b6d5-4dc382ef7f5b?_g=()"
+    kibana-url: "https://elksecond.chickenkiller.com:5601/app/dashboards#/view/edf84fe0-e1a0-11e7-b6d5-4dc382ef7f5b?_g=()&_a=()"
     prometheus.io/scrape: "true"
     prometheus.io/path: "/metrics"
     prometheus.io/port: "9090"
