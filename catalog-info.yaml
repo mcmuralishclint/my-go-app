@@ -22,7 +22,7 @@ metadata:
     backstage.io/kubernetes-id: go-clean-code
     # circleci.com/project-slug: github/mcmuralishclint/my-go-app
     dev.azure.com/host-org: dev.azure.com/aytradevops
-    dev.azure.com/project-repo: Marketplace-non-prod/web-marketplace
+    dev.azure.com/project-repo: Marketplace-non-prod/Web-Marketplace
     kibana-url: "https://elksecond.chickenkiller.com:5601/app/dashboards#/view/edf84fe0-e1a0-11e7-b6d5-4dc382ef7f5b?_g=()&_a=()"
     prometheus.io/scrape: "true"
     prometheus.io/path: "/metrics"
